@@ -4,7 +4,7 @@ MAINTAINER Leek Wars "https://github.com/leek-wars"
 
 # Install required packages
 RUN apt-get update
-RUN apt-get install -y --force-yes texinfo bison flex
+RUN apt-get install -y --force-yes autoconf texinfo bison flex
 
 # Install libjit
 RUN git clone git://git.savannah.gnu.org/libjit.git libjit
