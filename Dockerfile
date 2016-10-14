@@ -15,4 +15,4 @@ RUN mv /usr/local/lib64/libjit* /usr/lib
 RUN wget https://bootstrap.pypa.io/get-pip.py
 RUN python get-pip.py
 RUN pip install --user cpp-coveralls
-RUN export PATH=$PATH:$HOME/.local/bin
+ENV PATH $PATH:$HOME/.local/bin
