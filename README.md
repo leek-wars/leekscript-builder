@@ -1,6 +1,5 @@
 # leekscript-builder
 LeekScript builder docker image, with libraries and tools installed:
-- gcc 5.3
 - LLVM
 - GNU MP (libgmp-dev)
 - cpp-coveralls (installed via pip)
