@@ -4,7 +4,7 @@ MAINTAINER Leek Wars "https://github.com/leek-wars"
 
 # Install required packages
 RUN apt-get update
-RUN apt-get install -y --force-yes gcc python wget libgmp-dev llvm
+RUN apt-get install -y --force-yes gcc make python wget libgmp-dev llvm
 
 # Install cpp-coveralls
 RUN wget https://bootstrap.pypa.io/get-pip.py
