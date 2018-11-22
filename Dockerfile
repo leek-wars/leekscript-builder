@@ -1,4 +1,4 @@
-FROM gcc:5.3
+FROM ubuntu:latest
 
 MAINTAINER Leek Wars "https://github.com/leek-wars"
 
