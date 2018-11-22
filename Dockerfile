@@ -4,7 +4,7 @@ MAINTAINER Leek Wars "https://github.com/leek-wars"
 
 # Install required packages
 RUN apt-get update
-RUN apt-get install -y --force-yes autoconf texinfo bison flex python libgmp-dev llvm-6.0
+RUN apt-get install -y --force-yes python libgmp-dev llvm
 
 # Install cpp-coveralls
 RUN wget https://bootstrap.pypa.io/get-pip.py
