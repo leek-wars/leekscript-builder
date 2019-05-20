@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:disco
 
 MAINTAINER Leek Wars "https://github.com/leek-wars"
 
